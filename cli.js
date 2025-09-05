@@ -6,7 +6,6 @@ const [,, tool, ...args] = process.argv;
 
 async function main() {
     if (!tool || !(tool in DigitalNatureTools)) {
-        console.log(process.argv);
         console.error(`Usage: node cli.js [tool] [args...]\nAvailable tools: ${Object.keys(DigitalNatureTools).join(', ')}`);
         process.exit(1);
     }
