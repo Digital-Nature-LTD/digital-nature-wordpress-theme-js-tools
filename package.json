@@ -1,6 +1,6 @@
 {
   "name": "@digital-nature-ltd/digital-nature-wordpress-theme-js-tools",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JS tools for use in Digital Nature themes",
   "main": "index.js",
   "scripts": {
