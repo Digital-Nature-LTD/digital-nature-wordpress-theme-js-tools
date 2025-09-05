@@ -13,6 +13,8 @@ import path from 'path';
  * @returns {Promise<string>} The full path of the downloaded file.
  */
 export async function downloadRemoteFile(url, destDir, redirects = 0) {
+    console.log('[START] downloadRemoteFile');
+
     const MAX_REDIRECTS = 10;
     if (redirects > MAX_REDIRECTS) {
         throw new Error(`Too many redirects for ${url}`);

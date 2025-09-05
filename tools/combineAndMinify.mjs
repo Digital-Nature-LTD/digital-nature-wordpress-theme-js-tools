@@ -8,6 +8,8 @@ import UglifyJS from 'uglify-js';
  * @param {string} outPath - The output file path (minified bundle).
  */
 export async function combineAndMinify(files, outPath) {
+    console.log('[START] combineAndMinify');
+
     if (!files.length) throw new Error('No input files provided.');
 
     const extensions = files.map(f => path.extname(f).toLowerCase());

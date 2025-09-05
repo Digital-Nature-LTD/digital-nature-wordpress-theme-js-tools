@@ -10,10 +10,19 @@
     "type": "git",
     "url": "git+https://github.com/Digital-Nature-LTD/digital-nature-wordpress-theme-js-tools.git"
   },
+  "type": "module",
   "author": "Gareth Midwood",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Digital-Nature-LTD/digital-nature-wordpress-theme-js-tools/issues"
   },
-  "homepage": "https://github.com/Digital-Nature-LTD/digital-nature-wordpress-theme-js-tools#readme"
+  "homepage": "https://github.com/Digital-Nature-LTD/digital-nature-wordpress-theme-js-tools#readme",
+  "bin": {
+    "DigitalNatureTools": "./cli.js"
+  },
+  "dependencies": {
+    "rtlcss": "^4.3.0",
+    "sass": "^1.92.0",
+    "uglify-js": "^3.19.3"
+  }
 }

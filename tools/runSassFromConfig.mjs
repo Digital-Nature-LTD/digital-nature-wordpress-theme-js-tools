@@ -37,6 +37,8 @@ async function loadConfig(configPath) {
  * @param {Object} [options.config] - Sass config object.
  */
 export async function runSassFromConfig({ watch = false, config } = {}) {
+    console.log('[START] runSassFromConfig');
+
     function buildSassArgs(entry, outputStyle, watchFlag) {
         let args = [`"${entry.src}:${entry.dest}"`];
         if (outputStyle) args.push(`--style=${outputStyle}`);
