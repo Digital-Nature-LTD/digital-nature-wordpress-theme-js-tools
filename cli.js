@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 // cli.js
 import { DigitalNatureTools } from './index.js';
 
