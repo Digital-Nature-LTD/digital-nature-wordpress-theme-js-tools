@@ -1,0 +1,19 @@
+{
+  "name": "@digital-nature-ltd/digital-nature-wordpress-theme-js-tools",
+  "version": "1.0.0",
+  "description": "JS tools for use in Digital Nature themes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Digital-Nature-LTD/digital-nature-wordpress-theme-js-tools.git"
+  },
+  "author": "Gareth Midwood",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Digital-Nature-LTD/digital-nature-wordpress-theme-js-tools/issues"
+  },
+  "homepage": "https://github.com/Digital-Nature-LTD/digital-nature-wordpress-theme-js-tools#readme"
+}
